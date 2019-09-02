@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func action(_ sender: UIButton) {
+        print("This is a Gi  t tutorial")
         print("This is a Gi dq  shgq    jgjgg t tutorial")
 
         print("This is a Gi dgddg t tutorial")
