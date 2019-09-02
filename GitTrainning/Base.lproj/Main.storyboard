@@ -19,16 +19,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRL-7k-rNF">
-                                <rect key="frame" x="84" y="293" width="206" height="60"/>
+                                <rect key="frame" x="84.5" y="293" width="206" height="60"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ela-P0-hfl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdP-Fi-emS">
+                                <rect key="frame" x="85" y="397" width="206" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lsh-3I-c62"/>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lhb-md-biM"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="NRL-7k-rNF" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" constant="-607" id="Cfn-8H-qPk"/>
+                            <constraint firstItem="zdP-Fi-emS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="IOy-pf-wIX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zdP-Fi-emS" secondAttribute="trailing" constant="84" id="Kyp-wg-RQd"/>
+                            <constraint firstItem="zdP-Fi-emS" firstAttribute="top" secondItem="NRL-7k-rNF" secondAttribute="bottom" constant="44" id="Mm1-eo-0jG"/>
                             <constraint firstItem="NRL-7k-rNF" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-169" id="NmU-Xr-MVb"/>
                             <constraint firstItem="NRL-7k-rNF" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-20.5" id="O4f-Qg-dVe"/>
                             <constraint firstItem="NRL-7k-rNF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hc5-yy-eYP"/>

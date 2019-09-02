@@ -15,6 +15,7 @@
 		D9545DFE231D1F930097257E /* GitTrainningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9545DFD231D1F930097257E /* GitTrainningTests.swift */; };
 		D9545E09231D1F930097257E /* GitTrainningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9545E08231D1F930097257E /* GitTrainningUITests.swift */; };
 		D95ED94C231D23F1006029C0 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95ED94B231D23F1006029C0 /* model.swift */; };
+		D95ED94E231D3A16006029C0 /* srgdfg.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95ED94D231D3A16006029C0 /* srgdfg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D9545E08231D1F930097257E /* GitTrainningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTrainningUITests.swift; sourceTree = "<group>"; };
 		D9545E0A231D1F930097257E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D95ED94B231D23F1006029C0 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		D95ED94D231D3A16006029C0 /* srgdfg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = srgdfg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D9545DE8231D1F900097257E /* AppDelegate.swift */,
 				D9545DEA231D1F900097257E /* ViewController.swift */,
 				D95ED94B231D23F1006029C0 /* model.swift */,
+				D95ED94D231D3A16006029C0 /* srgdfg.swift */,
 				D9545DEC231D1F900097257E /* Main.storyboard */,
 				D9545DEF231D1F920097257E /* Assets.xcassets */,
 				D9545DF1231D1F920097257E /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95ED94E231D3A16006029C0 /* srgdfg.swift in Sources */,
 				D9545DEB231D1F900097257E /* ViewController.swift in Sources */,
 				D95ED94C231D23F1006029C0 /* model.swift in Sources */,
 				D9545DE9231D1F900097257E /* AppDelegate.swift in Sources */,

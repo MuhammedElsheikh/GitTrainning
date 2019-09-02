@@ -18,6 +18,14 @@ class ViewController: UIViewController {
     
     @IBAction func buttonClicked(_ sender: UIButton) {
         print("This is a Git tutorial")
+          print("This is a Git tutorial")
+    }
+    
+    
+    
+    @IBAction func action(_ sender: UIButton) {
+       
+        print("This is a Gi dgddg t tutorial")
     }
 
 }
